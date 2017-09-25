@@ -1,0 +1,21 @@
+<?php
+
+function bookByAuthorYear($tempAuthorName, $tempYear = 1910)
+{
+    echo $tempYear;
+    echo "\n";
+    echo $tempAuthorName;
+}
+
+function getAuthor()
+{
+    return "Charles Dickens";
+}
+
+
+
+$year = 1920;
+$authorName = getAuthor();
+
+bookByAuthorYear($authorName, $year);
+
