@@ -1,5 +1,5 @@
-{
-    "Rooms": [
+var rooms = 
+  "Rooms: [
         "Basement",
         "Stairs",
         "Living Room",
