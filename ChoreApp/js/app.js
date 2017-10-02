@@ -13,3 +13,4 @@ for (var i = 0; i < jsRefs.length; i++) {
     var scripts = document.getElementsByTagName('script')[0];
     scripts.parentNode.insertBefore(script, scripts);
 };
+
