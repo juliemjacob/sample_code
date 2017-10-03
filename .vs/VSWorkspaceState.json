@@ -3,8 +3,9 @@
     "",
     "\\ChoreApp",
     "\\ChoreApp\\css",
+    "\\ChoreApp\\data",
     "\\ChoreApp\\js"
   ],
-  "SelectedNode": "\\ChoreApp",
+  "SelectedNode": "\\ChoreApp\\TidyTracker.html",
   "PreviewInSolutionExplorer": false
 }

@@ -35,9 +35,14 @@ var room = [
 //populate dropdown list on addChore form
 
 function roomList() {
+
+
     for (var i = 0; i < room.length; i++){
-        var newRoom = document.createElement("option");
+        var newRoom = document.createElement("OPTION");
         newRoom.setAttribute("value", room[i]);
+        var text = document.createTextNode(room[i]);
+        newRoom.appendChild(text);
         document.getElementById("roomOption").appendChild(newRoom);
+
     }
 }

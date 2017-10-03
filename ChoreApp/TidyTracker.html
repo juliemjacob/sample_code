@@ -8,7 +8,9 @@
     <script type="text/javascript" src="js/calendar.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 
-
+    <script>
+            document.onload = roomList();
+    </script>
 </head>
 <body>
     <h1>Welcome to TidyTracker!</h1>
@@ -17,7 +19,8 @@
 
 
     <div name="addChoreForm">
-        <form method="get" name="NewChore" onload="roomList()">
+
+        <form method="get" name="NewChore" id="NewChore">
             Enter name of new chore: <input type="text" name="name" value="" required /><br />
             How often should this chore be done? 
             <select>
