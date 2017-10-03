@@ -9,7 +9,7 @@
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 
     <script>
-            document.onload = roomList();
+        document.onload = setTimeout(function () { roomList() }, 1000);
     </script>
 </head>
 <body>
@@ -33,13 +33,20 @@
                 <option value="365">Anually</option>
             </select><br />
             On a scale of 1-5 how difficult is this chore? <input type="number" min="1" max="5" /><br />
-            Which room is this chore in? <select name="roomOption" id="roomOption">
+            Which room is this chore in? 
+            
+            <select id="roomOption">
+                <option></option>
                       </select><br />
         </form>
     </div>
+
+
     <div name="addRoomieForm">
         <!--Add a form to add additional roommates-->
     </div>
+
+
 </body>
 
 </html>
