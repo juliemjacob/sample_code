@@ -43,3 +43,7 @@ function roomList() {
         document.getElementById("roomOption").appendChild(newRoom);
     }
 }
+
+function choreDataHandler() {
+    //form data handler code
+}

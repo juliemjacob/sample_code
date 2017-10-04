@@ -7,7 +7,7 @@ function Roomie(firstName, lastName, responsibility, phone, email) {
 	this.phone = phone;
 	this.email = email;
 	this.onVacation = false;
-	this.roomieId = function(){
-	
-	};
-};
+    this.roomieId = function () {
+
+    };
+}
